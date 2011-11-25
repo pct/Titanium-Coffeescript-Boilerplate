@@ -1,3 +1,4 @@
+
 exports.initApp = function() {
   var API, HomeWindow, NavigationController;
   API = require('api/api').API;

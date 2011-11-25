@@ -41,7 +41,7 @@ module Config
   ANDROID_SDK_DIR="/Users/mepihlaj/projects/android/android-sdk-mac_x86"
   ANDROID_SDK_ID="6"
 
-  TI_SDK_VERSION      = "1.7.3"
+  TI_SDK_VERSION      = "1.7.5"
   TI_DIR              = "/Library/Application\\ Support/Titanium"
 
   TI_ASSETS_DIR       = "#{TI_DIR}/mobilesdk/osx/#{TI_SDK_VERSION}"

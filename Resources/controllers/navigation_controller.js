@@ -1,8 +1,11 @@
 var NavigationController;
+
 NavigationController = (function() {
+
   function NavigationController() {
     this.windowStack = [];
   }
+
   NavigationController.prototype.open = function(windowToOpen) {
     var containerWindow, that;
     this.windowStack.push(windowToOpen);
@@ -31,6 +34,7 @@ NavigationController = (function() {
       }
     }
   };
+
   NavigationController.prototype.home = function() {
     var win, windows, _i, _len;
     windows = this.windowStack.concat([]).slice(1);
@@ -44,6 +48,9 @@ NavigationController = (function() {
     }
     return this.windowStack = [this.windowStack[0]];
   };
+
   return NavigationController;
+
 })();
+
 exports.NavigationController = NavigationController;
