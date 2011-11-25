@@ -18,3 +18,7 @@ build.log
 *.mobileprovision
 .redcar*
 Resources/default_app_logo.png
+
+# For Vim
+*~
+*.swp
